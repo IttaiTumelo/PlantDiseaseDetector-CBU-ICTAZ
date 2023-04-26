@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{8E12E03C-5EF3-46C9-A25F-0CB68FEB6873}|Default">
+  <MonoDevelop.Ide.ItemProperties.PlantDiseaseDetector PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A52818AF-92B3-46A1-8FF7-506A548BC8B7" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlantDiseaseDetector/ViewModels/MainViewModel.cs">
+    <Files>
+      <File FileName="PlantDiseaseDetector/MainPage.xaml.cs" Line="5" Column="2" />
+      <File FileName="PlantDiseaseDetector/MainPage.xaml" />
+      <File FileName="PlantDiseaseDetector/MauiProgram.cs" />
+      <File FileName="PlantDiseaseDetector/App.xaml" />
+      <File FileName="PlantDiseaseDetector/AppShell.xaml.cs" />
+      <File FileName="PlantDiseaseDetector/App.xaml.cs" Line="9" Column="30" />
+      <File FileName="PlantDiseaseDetector/AppShell.xaml" />
+      <File FileName="../../.nuget/packages/communitytoolkit.maui/5.1.0/readme.txt" />
+      <File FileName="PlantDiseaseDetector/GlobalUsings.cs" />
+      <File FileName="PlantDiseaseDetector/Entities/ArticlePart.cs" />
+      <File FileName="PlantDiseaseDetector/Resources/Styles/Styles.xaml" />
+      <File FileName="PlantDiseaseDetector/Resources/Styles/Colors.xaml" />
+      <File FileName="PlantDiseaseDetector/Platforms/iOS/AppDelegate.cs" />
+      <File FileName="PlantDiseaseDetector/Platforms/iOS/Program.cs" />
+      <File FileName="../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/7.0.81/targets/Microsoft.Maui.Resizetizer.targets" />
+      <File FileName="PlantDiseaseDetector/Resources/Images/dotnet_bot.svg" />
+      <File FileName="PlantDiseaseDetector/Platforms/iOS/Info.plist" />
+      <File FileName="PlantDiseaseDetector/Platforms/Android/MainApplication.cs" />
+      <File FileName="PlantDiseaseDetector/Views/ResultsView.xaml.cs" />
+      <File FileName="PlantDiseaseDetector/Views/FileView.xaml.cs" />
+      <File FileName="PlantDiseaseDetector/Views/InformationView.xaml.cs" />
+      <File FileName="PlantDiseaseDetector/ViewModels/CameraViewModel.cs" Line="1" Column="1" />
+      <File FileName="PlantDiseaseDetector/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+      <File FileName="PlantDiseaseDetector/Platforms/Android/AndroidManifest.xml" />
+      <File FileName="PlantDiseaseDetector/Platforms/Android/MainActivity.cs" />
+      <File FileName="PlantDiseaseDetector/Properties/launchSettings.json" />
+      <File FileName="PlantDiseaseDetector/Views/CameraView.xaml.cs" Line="1" Column="1" />
+      <File FileName="PlantDiseaseDetector/Views/CameraView.xaml" Line="1" Column="1" />
+      <File FileName="PlantDiseaseDetector/ViewModels/MainViewModel.cs" Line="13" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlantDiseaseDetector" expanded="True">
+            <Node name="PlantDiseaseDetector" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="MainViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="CameraView.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A52818AF-92B3-46A1-8FF7-506A548BC8B7" />
+</Properties>

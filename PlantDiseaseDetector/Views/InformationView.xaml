@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlantDiseaseDetector.Views.InformationView"
+             Title="Information">
+    <ScrollView Padding="20">
+        <VerticalStackLayout Spacing="10">
+            <Label 
+                Text="Plant Doctor: Detect and Cure Plant Diseases with Your Phone"
+                FontAttributes="Bold"
+                TextDecorations="None"
+                FontSize="Subtitle"/>
+            <Label 
+                Text="Do you love gardening but struggle with identifying and treating plant diseases? Do you want to keep your plants healthy and beautiful without spending hours on research? If so, Plant Doctor is the app for you!"
+                FontAttributes="None"
+                TextDecorations="None"
+                FontSize="Small"/>
+            <Label 
+                Text="What is this app?"
+                FontAttributes="Bold"
+                TextDecorations="Underline"
+                FontSize="Header"/>
+            <Label 
+                Text="Plant Doctor is an app that helps you diagnose and cure plant diseases using your phone's camera. Whether you have a houseplant, a vegetable garden, or a flower bed, Plant Doctor can help you detect and prevent common plant problems."
+                FontAttributes="None"
+                TextDecorations="None"
+                FontSize="Small"/>
+            <Label 
+                Text="How does it work?"
+                FontAttributes="Bold"
+                TextDecorations="Underline"
+                FontSize="Header"/>
+            <Label 
+                Text="Plant Doctor is very easy to use. All you need to do is:
+
+                - Take a clear picture of your plant's leaves, stems, or flowers with your phone's camera or select an existing picture from your gallery.
+                - Upload the picture to the app and wait for a few seconds while the app analyzes it.
+                - Get the results and information about the disease, including its name, symptoms, causes, and possible solutions.
+
+                You can also save your results for future reference or share them with other plant lovers."
+                FontAttributes="None"
+                TextDecorations="None"
+                FontSize="Small"/>
+            <Label 
+                Text="Where is the information coming from?"
+                FontAttributes="Bold"
+                TextDecorations="Underline"
+                FontSize="Header"/>
+            <Label 
+                Text="Plant Doctor uses a powerful artificial intelligence (AI) system that can recognize over 1000 different plant diseases. The AI system is based on a large database of plant images and information collected from reliable sources such as universities, research institutes, and extension services. The app is constantly updated with new data and features to provide you with the most accurate and up-to-date diagnosis."
+                FontAttributes="None"
+                TextDecorations="None"
+                FontSize="Small"/>
+            <Label 
+                Text="Privacy"
+                FontAttributes="Bold"
+                TextDecorations="Underline"
+                FontSize="Header"/>
+            <Label 
+                Text="Plant Doctor respects your privacy and does not collect or store any personal information from you or your device. The app only uses your pictures for the purpose of diagnosis and does not share them with any third parties. You can delete your pictures from the app at any time."
+                FontAttributes="None"
+                TextDecorations="None"
+                FontSize="Small"/>
+            <Label 
+                Text="Disclaimers"
+                FontAttributes="Bold"
+                TextDecorations="Underline"
+                FontSize="Header"/>
+            <Label 
+                Text="- Plant Doctor is intended for educational and informational purposes only. It is not a substitute for professional advice or diagnosis from a qualified plant expert. You should always consult a plant specialist before applying any treatment or solution to your plants.
+- Plant Doctor may not be able to detect all plant diseases or provide accurate results in some cases. The app's performance may depend on various factors such as the quality of the picture, the lighting conditions, the type of plant, and the stage of the disease. You should always verify the results with other sources before taking any action.
+- Plant Doctor is not responsible for any damage or loss caused by the use or misuse of the app or its results. You are solely responsible for your own plants and their health.
+
+Plant Doctor is the ultimate app for plant lovers who want to keep their plants healthy and happy. Download it today and discover how easy and fun it is to be a plant doctor!"
+                FontAttributes="None"
+                TextDecorations="None"
+                FontSize="Small"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

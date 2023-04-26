@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlantDiseaseDetector.Views.ResultsView"
+             Title="Results">
+    <ScrollView Padding="20">
+        
+        <VerticalStackLayout Spacing="10">
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
+                <Image Grid.Column="0" Source="maize.png" Aspect="AspectFill"/>
+                <VerticalStackLayout  Grid.Column="1" Spacing="10">
+                    <Label 
+                        Text="DIAGNOSIS"
+                        FontAttributes="Bold"/>
+                    <Label Text="Seems your maize field is infected with Blight."/>
+                    <Label
+                        Text="What is Blight?"
+                        FontAttributes="Bold"/>
+                    <Label Text="Blight in maize, also known as maize leaf blight or southern corn leaf blight, is a fungal disease that affects maize plants. The disease is caused by the fungus Setosphaeria turcica, which produces lesions on the leaves of the plant, causing them to turn brown and die. Blight can also affect the ears of the maize plant, resulting in poor yield and low-quality grain."/>
+                </VerticalStackLayout>
+            </Grid>
+             <Label Text="TREATMENT" FontAttributes="Bold" />
+                    <Label Text="Spray fungicides such as Captan,
+                           Zineb or Mancozeb.
+                        Practicing sanitation and crop rotation.
+                        Use biocontrol agents such as Pseudomonas fluorescence and Bacillus subtilis.
+                        Using plant extracts such as Melia azedarach and Murraya koenigii.
+                        Using elicitors such as chitosan."
+                                                   />
+                    <Label Text="HOW TO PREVENT THIS AT AN EARLY STAGE"
+                           FontAttributes="Bold"/>
+                    <Label Text="Plant disease-resistant varieties.
+                        Weed frequently.
+                        Practice crop rotation with non-host crops13.
+                        Dry seeds before sowing to reduce moisture content.
+                        Use appropriate fungicides to control the severity of fungal infection"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

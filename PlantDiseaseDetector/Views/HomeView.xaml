@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PlantDiseaseDetector.Views"
+             xmlns:viewmodel="clr-namespace:PlantDiseaseDetector.ViewModels"
+             x:DataType="viewmodel:HomeViewModel"
+             x:Class="PlantDiseaseDetector.Views.HomeView"
+             Shell.NavBarIsVisible="False"
+             >
+    <Grid RowDefinitions="*, Auto, Auto" RowSpacing="20" Margin="0,0,0,30">
+        <Image
+            Source="{Binding LocalFilePath}"
+            Aspect="AspectFill"
+            />
+        <Button
+            IsVisible="{Binding Uploadable}"
+            Margin="20,0"
+            Grid.Row="1"
+            IsEnabled="{Binding IsNotBusy}"
+            Command="{Binding UploadCommand}"
+            Text="Upload"
+            />
+        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" >
+            <Button
+                ImageSource="files.png"
+                    Grid.Column="0"
+                WidthRequest="60"
+                HeightRequest="60"
+                Command="{Binding FromFilesCommand}"
+                CornerRadius="30"
+            IsEnabled="{Binding IsNotBusy}"
+                FontSize="Micro" />
+            
+            <Button
+                    Grid.Column="1"
+                ImageSource="camera.png"
+                WidthRequest="100"
+                HeightRequest="100"
+                CornerRadius="50"
+            IsEnabled="{Binding IsNotBusy}"
+                Command="{Binding FromCameraCommand}"
+                FontSize="Micro"/>
+            <Button
+                ImageSource="info.png"
+                    Grid.Column="2"
+                WidthRequest="60"
+                HeightRequest="60"
+                CornerRadius="30"
+            IsEnabled="{Binding IsNotBusy}"
+                Command="{Binding NavToInfoPageCommand}"
+                FontSize="Micro"/>
+        </Grid>
+        
+    <!--<local:CameraView Title="Camera" IconImageSource="camera.png" />
+    <local:FileView Title="Upload" IconImageSource="files.png" />
+    <local:InformationView Title="Information" IconImageSource="info.png" />-->
+
+    </Grid>
+
+</ContentPage>

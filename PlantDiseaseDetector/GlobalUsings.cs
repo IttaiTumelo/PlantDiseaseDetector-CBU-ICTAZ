@@ -1,0 +1,12 @@
+﻿global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using System;
+global using PlantDiseaseDetector.Entities;
+global using Microsoft.Extensions.Logging;
+global using PlantDiseaseDetector.ViewModels;
+global using PlantDiseaseDetector.Views;
+global using CommunityToolkit.Maui;
+global using CommunityToolkit.Maui.Alerts;
+global using Microsoft.Maui.Controls;
+global using CommunityToolkit.Maui.Core;
+//global using PlantDiseaseDetector.Models;
